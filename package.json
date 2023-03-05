@@ -1,5 +1,5 @@
 {
-  "name": "react-voice-recorder",
+  "name": "@hkhanouchi/react-voice-recorder",
   "version": "1.0.0",
   "description": "Record audio from your microphone",
   "main": "dist/index.js",
@@ -90,5 +90,8 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "publishConfig": {
+    "@hkhanouchi:registry": "https://npm.pkg.github.com"
   }
 }
